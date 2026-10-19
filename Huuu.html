@@ -1,0 +1,2298 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="The personal portfolio of Justine Modesio, a BSIT student and aspiring web developer.">
+
+    <title>Justine Modesio | My Little Corner</title>
+
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+  
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    
+    <div class="background-decoration decoration-one"></div>
+    <div class="background-decoration decoration-two"></div>
+
+   
+    <header class="site-header">
+        <nav class="navbar container">
+
+            <a href="#home" class="brand">
+                <span class="brand-icon">♡</span>
+                justine<span class="brand-dot">.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button id="themeToggle" class="icon-button"
+                    aria-label="Switch to dark mode"
+                    title="Change theme">
+                ☾
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+      
+        <section id="home" class="hero section container">
+
+            <div class="hero-content">
+                <span class="eyebrow">
+                    ✿ A LITTLE INTRODUCTION
+                </span>
+
+                <p class="hello-line">Hello there, welcome to my world!</p>
+
+                <h1>
+                    I'm Justine<br>
+                    <span class="serif-italic">Modesio.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A BSIT student with a creative mind, a curious heart,
+                    and a love for turning ideas into beautiful websites.
+                </p>
+
+                <div class="hero-tags">
+                    <span>IT Student</span>
+                    <span>Future Web Developer</span>
+                    <span>Creative Learner</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="button button-primary">
+                        Explore my work <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="button button-secondary">
+                        Get to know me
+                    </a>
+                </div>
+
+                <button id="welcomeBtn" class="welcome-link">
+                    Click for a little surprise ♡
+                </button>
+
+                <p id="welcomeMessage" class="welcome-message"
+                   aria-live="polite"></p>
+            </div>
+
+            <div class="hero-visual">
+                <div class="portrait-frame">
+
+                    <span class="portrait-sticker sticker-top">୨ৎ</span>
+
+                    <img src="https://photos.icloud.com/shared/album/0e3bj8lqCcJsX_RE-s_LZh9KA"
+                         alt="Portrait of Justine Modesio"
+                         class="profile-image">
+
+                    <span class="portrait-sticker sticker-bottom">♡</span>
+                </div>
+
+                <div class="portrait-caption">
+                    <span class="caption-line"></span>
+                    <p>learning, growing, creating.</p>
+                    <span class="caption-line"></span>
+                </div>
+
+                <div class="floating-note">
+                    <span>✿</span>
+                    <div>
+                        <strong>Currently</strong>
+                        <p>Learning something new</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+      
+        <section class="intro-strip">
+            <div class="container intro-strip-inner">
+                <span>♡ creativity</span>
+                <span>✿ curiosity</span>
+                <span>♡ continuous learning</span>
+                <span>✿ little steps, big dreams</span>
+            </div>
+        </section>
+
+       
+        <section id="about" class="section container">
+
+            <div class="section-heading">
+                <span class="eyebrow">A LITTLE ABOUT ME</span>
+                <h2>More than just <span class="serif-italic">a name.</span></h2>
+                <p>
+                    A glimpse into who I am, what I love, and what I'm
+                    working toward.
+                </p>
+            </div>
+
+            <div class="about-layout">
+
+                <article class="about-card about-main-card">
+                    <span class="card-flower">✿</span>
+                    <span class="small-label">MY STORY</span>
+                    <h3>A student with<br>a creative heart.</h3>
+
+                    <p>
+                        Hi! I'm Justine Modesio, a 19-year-old Bachelor of
+                        Science in Information Technology student at
+                        Bestlink College of the Philippines.
+                    </p>
+
+                    <p>
+                        I enjoy learning how websites work, experimenting
+                        with designs, and discovering new technologies.
+                        My goal is to continue improving my skills and
+                        create websites that are both useful and beautiful.
+                    </p>
+
+                    <button class="text-button" id="readMoreBtn"
+                            aria-expanded="false">
+                        Read a little more <span>↗</span>
+                    </button>
+
+                    <div id="moreAbout" class="more-about hidden">
+                        <p>
+                            Every school activity gives me a chance to
+                            practice, explore new ideas, and become more
+                            confident in my abilities. I believe progress
+                            comes from patience, practice, and the courage
+                            to try something new.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="about-card detail-card">
+                    <div class="detail-icon">⌂</div>
+                    <span class="small-label">PERSONAL DETAILS</span>
+                    <h3>The basics</h3>
+
+                    <div class="detail-row">
+                        <span>Name</span>
+                        <strong>Justine Modesio</strong>
+                    </div>
+
+                    <div class="detail-row">
+                        <span>Age</span>
+                        <strong>19 years old</strong>
+                    </div>
+
+                    <div class="detail-row">
+                        <span>Location</span>
+                        <strong>Caloocan City, Philippines</strong>
+                    </div>
+
+                    <div class="detail-row">
+                        <span>Course</span>
+                        <strong>BS Information Technology</strong>
+                    </div>
+
+                    <div class="detail-row">
+                        <span>School</span>
+                        <strong>Bestlink College of the Philippines</strong>
+                    </div>
+                </article>
+
+                <article class="about-card interest-card">
+                    <span class="small-label">THINGS I LOVE</span>
+                    <h3>My interests</h3>
+
+                    <div class="interest-item">
+                        <span class="interest-icon">⌘</span>
+                        <div>
+                            <strong>Website Design</strong>
+                            <p>Creating lovely and organized layouts.</p>
+                        </div>
+                    </div>
+
+                    <div class="interest-item">
+                        <span class="interest-icon">⌨</span>
+                        <div>
+                            <strong>Programming</strong>
+                            <p>Learning code one step at a time.</p>
+                        </div>
+                    </div>
+
+                    <div class="interest-item">
+                        <span class="interest-icon">♫</span>
+                        <div>
+                            <strong>Listening to Music</strong>
+                            <p>My little break from busy days.</p>
+                        </div>
+                    </div>
+
+                    <div class="interest-item">
+                        <span class="interest-icon">✧</span>
+                        <div>
+                            <strong>New Technologies</strong>
+                            <p>Exploring ideas and digital tools.</p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+      
+        <section id="skills" class="section soft-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">GROWING EVERY DAY</span>
+                    <h2>My little <span class="serif-italic">toolbox.</span></h2>
+                    <p>
+                        Skills I'm practicing and qualities I bring
+                        to every learning experience.
+                    </p>
+                </div>
+
+                <div class="skills-layout">
+
+                    <article class="skill-panel">
+                        <div class="panel-heading">
+                            <span class="panel-icon">⌘</span>
+                            <div>
+                                <span class="small-label">THE TECH SIDE</span>
+                                <h3>Technical skills</h3>
+                            </div>
+                        </div>
+
+                        <p class="panel-description">
+                            My current learning areas as a BSIT student.
+                        </p>
+
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>HTML</span>
+                                <span>Beginner</span>
+                            </div>
+                            <div class="skill-track">
+                                <span style="--level: 70%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>CSS & Web Styling</span>
+                                <span>Beginner</span>
+                            </div>
+                            <div class="skill-track">
+                                <span style="--level: 65%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>Learning</span>
+                            </div>
+                            <div class="skill-track">
+                                <span style="--level: 40%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>Java Programming</span>
+                                <span>Learning</span>
+                            </div>
+                            <div class="skill-track">
+                                <span style="--level: 45%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>Responsive Web Design</span>
+                                <span>Learning</span>
+                            </div>
+                            <div class="skill-track">
+                                <span style="--level: 50%"></span>
+                            </div>
+                        </div>
+
+                        <p class="skill-footnote">
+                            These are personal progress estimates, not
+                            official assessment scores.
+                        </p>
+                    </article>
+
+                    <article class="skill-panel personal-panel">
+                        <div class="panel-heading">
+                            <span class="panel-icon">♡</span>
+                            <div>
+                                <span class="small-label">THE HUMAN SIDE</span>
+                                <h3>Personal skills</h3>
+                            </div>
+                        </div>
+
+                        <p class="panel-description">
+                            Qualities that help me learn and work with others.
+                        </p>
+
+                        <div class="quality-list">
+                            <div class="quality-item">
+                                <span>01</span>
+                                <div>
+                                    <strong>Communication</strong>
+                                    <p>Sharing ideas clearly and respectfully.</p>
+                                </div>
+                                <span class="quality-heart">♡</span>
+                            </div>
+
+                            <div class="quality-item">
+                                <span>02</span>
+                                <div>
+                                    <strong>Teamwork</strong>
+                                    <p>Working together toward shared goals.</p>
+                                </div>
+                                <span class="quality-heart">♡</span>
+                            </div>
+
+                            <div class="quality-item">
+                                <span>03</span>
+                                <div>
+                                    <strong>Creativity</strong>
+                                    <p>Finding new ways to express ideas.</p>
+                                </div>
+                                <span class="quality-heart">♡</span>
+                            </div>
+
+                            <div class="quality-item">
+                                <span>04</span>
+                                <div>
+                                    <strong>Time Management</strong>
+                                    <p>Planning tasks and meeting deadlines.</p>
+                                </div>
+                                <span class="quality-heart">♡</span>
+                            </div>
+
+                            <div class="quality-item">
+                                <span>05</span>
+                                <div>
+                                    <strong>Willingness to Learn</strong>
+                                    <p>Staying open to feedback and growth.</p>
+                                </div>
+                                <span class="quality-heart">♡</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="projects" class="section container">
+
+            <div class="section-heading">
+                <span class="eyebrow">A COLLECTION OF MY WORK</span>
+                <h2>Made with <span class="serif-italic">love & logic.</span></h2>
+                <p>
+                    My school activities, from the first lessons to
+                    the final project.
+                </p>
+            </div>
+
+            <div class="project-toolbar">
+                <span>03 SCHOOL PROJECTS</span>
+                <span>HTML · CSS · JAVASCRIPT</span>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <a class="project-image"
+                       href="projects/timetable/index.html"
+                       aria-label="Open Time Table Class project">
+                        <img src="images/timetable.jpg"
+                             alt="Preview of my class timetable project">
+                        <span class="image-overlay">View project ↗</span>
+                        <span class="project-number">01</span>
+                    </a>
+
+                    <div class="project-body">
+                        <span class="project-category">PRELIM · HTML</span>
+                        <h3>Time Table Class</h3>
+                        <p>
+                            A class schedule organized into a clear table
+                            using HTML and CSS.
+                        </p>
+                        <div class="project-footer">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <a href="projects/timetable/index.html"
+                               class="project-arrow"
+                               aria-label="Open Time Table Class">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a class="project-image"
+                       href="projects/css-display/index.html"
+                       aria-label="Open CSS Display project">
+                        <img src="images/css-display.jpg"
+                             alt="Preview of my CSS Display project">
+                        <span class="image-overlay">View project ↗</span>
+                        <span class="project-number">02</span>
+                    </a>
+
+                    <div class="project-body">
+                        <span class="project-category">MIDTERM · CSS</span>
+                        <h3>CSS Display</h3>
+                        <p>
+                            A styling activity exploring how display
+                            properties arrange elements on a page.
+                        </p>
+                        <div class="project-footer">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <a href="projects/css-display/index.html"
+                               class="project-arrow"
+                               aria-label="Open CSS Display">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a class="project-image"
+                       href="projects/teachers-day/index.html"
+                       aria-label="Open Happy Teachers' Day project">
+                        <img src="images/teachers-day.jpg"
+                             alt="Preview of my Teachers' Day greeting project">
+                        <span class="image-overlay">View project ↗</span>
+                        <span class="project-number">03</span>
+                    </a>
+
+                    <div class="project-body">
+                        <span class="project-category">FINALS · WEB DESIGN</span>
+                        <h3>Happy Teachers' Day</h3>
+                        <p>
+                            A thoughtful greeting webpage created to
+                            celebrate teachers with a personal message.
+                        </p>
+                        <div class="project-footer">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                            <a href="projects/teachers-day/index.html"
+                               class="project-arrow"
+                               aria-label="Open Teachers' Day project">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="project-disclaimer">
+                Replace the sample images and project paths with your
+                actual school activities before submitting.
+            </p>
+        </section>
+
+        
+        <section class="quote-section">
+            <div class="container quote-inner">
+                <span class="quote-decoration">"</span>
+                <p>
+                    You don't have to have everything figured out.
+                    Just keep learning, keep creating, and keep growing.
+                </p>
+                <span class="quote-credit">A LITTLE REMINDER TO MYSELF ♡</span>
+            </div>
+        </section>
+
+     
+        <section id="contact" class="section container">
+
+            <div class="contact-card">
+                <div class="contact-content">
+                    <span class="eyebrow">LET'S SAY HELLO</span>
+                    <h2>Have a little <span class="serif-italic">chat?</span></h2>
+                    <p>
+                        Thank you for taking the time to visit my portfolio.
+                        I'd be happy to connect, share ideas, and keep learning.
+                    </p>
+
+                    <div class="contact-details">
+                        <a href="mailto:modesiojustine221@gmail.com"
+                           class="contact-link">
+                            <span class="contact-symbol">✉</span>
+                            <span>
+                                <small>EMAIL ME</small>
+                                <strong>modesiojustine221@gmail.com</strong>
+                            </span>
+                        </a>
+
+                        <a href="tel:09516211007" class="contact-link">
+                            <span class="contact-symbol">♡</span>
+                            <span>
+                                <small>CALL OR TEXT</small>
+                                <strong>09516211007</strong>
+                            </span>
+                        </a>
+                    </div>
+
+                    <button id="contactBtn" class="button button-primary">
+                        Send a little hello ♡
+                    </button>
+                </div>
+
+                <div class="contact-art">
+                    <div class="contact-circle">
+                        <span>୨ৎ</span>
+                        <span class="contact-big-heart">♡</span>
+                        <span>✿</span>
+                    </div>
+                    <p>made with a little bit of pink.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CUSTOMIZE YOUR THEME -->
+        <section class="customize-section container">
+            <div class="customize-card">
+                <div>
+                    <span class="eyebrow">MAKE IT YOURS</span>
+                    <h3>Choose your favorite color ♡</h3>
+                    <p>The color changes instantly. Pick your vibe!</p>
+                </div>
+
+                <div class="color-options" aria-label="Choose accent color">
+                    <button class="color-choice selected"
+                            data-color="#bd718c"
+                            data-soft="#f8e8ee"
+                            style="--swatch: #bd718c"
+                            aria-label="Blush pink"
+                            aria-pressed="true"></button>
+
+                    <button class="color-choice"
+                            data-color="#ad8b76"
+                            data-soft="#f2e8df"
+                            style="--swatch: #ad8b76"
+                            aria-label="Latte beige"
+                            aria-pressed="false"></button>
+
+                    <button class="color-choice"
+                            data-color="#a28eb8"
+                            data-soft="#eee7f5"
+                            style="--swatch: #a28eb8"
+                            aria-label="Lavender"
+                            aria-pressed="false"></button>
+
+                    <button class="color-choice"
+                            data-color="#8c9c83"
+                            data-soft="#e9eee5"
+                            style="--swatch: #8c9c83"
+                            aria-label="Sage green"
+                            aria-pressed="false"></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <footer class="site-footer">
+        <a href="#home" class="footer-brand">justine<span>.</span> ♡</a>
+
+        <p>Designed with love, creativity, and a little pink magic.</p>
+
+        <div class="footer-divider"></div>
+
+        <p>
+            &copy; <span id="currentYear"></span> Justine Modesio.
+            All rights reserved.
+        </p>
+
+        <p class="footer-time" id="currentDateTime"></p>
+    </footer>
+
+   
+    <button id="backToTop" class="back-to-top"
+            aria-label="Back to top" title="Back to top">
+        ↑
+    </button>
+
+</body>
+</html><style>
+:root {
+    --accent: #bd718c;
+    --accent-dark: #96516c;
+    --accent-soft: #f8e8ee;
+    --cream: #fffaf6;
+    --paper: #fffdfb;
+    --white: #ffffff;
+    --ink: #46363c;
+    --muted: #887981;
+    --line: #eee1e4;
+    --shadow: 0 12px 35px rgba(100, 65, 76, 0.07);
+    --radius: 22px;
+    --serif: "Playfair Display", Georgia, serif;
+    --sans: "DM Sans", Arial, sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    font-family: var(--sans);
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.75;
+    overflow-x: hidden;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    --cream: #211c21;
+    --paper: #2d252c;
+    --white: #352b33;
+    --ink: #f8edf2;
+    --muted: #c6b4be;
+    --line: #493943;
+    --accent-soft: #42303a;
+    --shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+
+::selection {
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+}
+
+.container {
+    width: min(1120px, calc(100% - 48px));
+    margin-inline: auto;
+}
+
+.section {
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.serif-italic {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--accent);
+}
+
+.eyebrow,
+.small-label {
+    display: inline-block;
+    color: var(--accent-dark);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2.3px;
+    line-height: 1.6;
+}
+
+.small-label {
+    letter-spacing: 1.7px;
+}
+
+
+
+.background-decoration {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(1px);
+}
+
+.decoration-one {
+    top: 120px;
+    right: -120px;
+    width: 300px;
+    height: 300px;
+    background: var(--accent-soft);
+    opacity: 0.7;
+}
+
+.decoration-two {
+    top: 600px;
+    left: -180px;
+    width: 320px;
+    height: 320px;
+    background: #f3e9e0;
+    opacity: 0.5;
+}
+
+
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: color-mix(in srgb, var(--cream) 92%, transparent);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--line);
+}
+
+.navbar {
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.brand,
+.footer-brand {
+    text-decoration: none;
+    font-family: var(--serif);
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    white-space: nowrap;
+}
+
+.brand-icon,
+.brand-dot,
+.footer-brand span {
+    color: var(--accent);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+    transition: color 0.25s;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--accent-dark);
+}
+
+.nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 1px;
+    background: var(--accent);
+}
+
+.icon-button,
+.menu-toggle {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    color: var(--accent-dark);
+    cursor: pointer;
+    transition: transform 0.25s, background 0.25s;
+}
+
+.icon-button:hover,
+.menu-toggle:hover {
+    transform: rotate(-8deg);
+    background: var(--accent-soft);
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 18px;
+}
+
+
+.hero {
+    min-height: 650px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 80px;
+    padding-top: 85px;
+    padding-bottom: 95px;
+}
+
+.hero-content {
+    animation: fade-up 0.8s ease both;
+}
+
+.hello-line {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(55px, 6vw, 79px);
+    line-height: 1.12;
+    letter-spacing: -3px;
+    font-weight: 500;
+}
+
+.hero-description {
+    max-width: 450px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 24px;
+}
+
+.hero-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 23px;
+}
+
+.hero-tags span,
+.tech-tag {
+    border: 1px solid var(--line);
+    border-radius: 30px;
+    background: var(--paper);
+    color: var(--muted);
+    padding: 6px 11px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.button {
+    min-height: 47px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 12px 21px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    cursor: pointer;
+    transition: transform 0.25s, background 0.25s,
+                box-shadow 0.25s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+}
+
+.button-primary {
+    background: var(--accent);
+    color: #ffffff;
+}
+
+.button-primary:hover {
+    background: var(--accent-dark);
+    border-color: var(--accent-dark);
+}
+
+.button-secondary {
+    background: transparent;
+    color: var(--accent-dark);
+}
+
+.button-secondary:hover {
+    background: var(--accent-soft);
+}
+
+.welcome-link {
+    display: block;
+    margin-top: 22px;
+    background: none;
+    border: none;
+    color: var(--accent-dark);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.welcome-link:hover {
+    text-decoration: underline;
+}
+
+.welcome-message {
+    min-height: 25px;
+    margin-top: 6px;
+    color: var(--accent-dark);
+    font-size: 12px;
+}
+
+.hero-visual {
+    position: relative;
+    width: 100%;
+    max-width: 410px;
+    margin-inline: auto;
+    animation: fade-up 0.9s ease 0.15s both;
+}
+
+.portrait-frame {
+    position: relative;
+    padding: 13px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 220px 220px 8px 8px;
+    transform: rotate(2deg);
+    box-shadow: var(--shadow);
+}
+
+.profile-image {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 210px 210px 4px 4px;
+    background: var(--accent-soft);
+}
+
+.portrait-sticker {
+    position: absolute;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    background: var(--cream);
+    color: var(--accent);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+}
+
+.sticker-top {
+    top: 45px;
+    right: -24px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.sticker-bottom {
+    bottom: 50px;
+    left: -23px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 27px;
+}
+
+.portrait-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.portrait-caption p {
+    color: var(--muted);
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+}
+
+.caption-line {
+    width: 25px;
+    height: 1px;
+    background: var(--accent);
+}
+
+.floating-note {
+    position: absolute;
+    bottom: 85px;
+    right: -38px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 13px 16px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    transform: rotate(-3deg);
+}
+
+.floating-note > span {
+    font-size: 24px;
+    color: var(--accent);
+}
+
+.floating-note strong {
+    font-size: 11px;
+}
+
+.floating-note p {
+    font-size: 10px;
+    color: var(--muted);
+}
+
+.intro-strip {
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+}
+
+.intro-strip-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.intro-strip span {
+    font-family: var(--serif);
+    font-size: 13px;
+    font-style: italic;
+    color: var(--accent-dark);
+}
+
+.section-heading {
+    max-width: 650px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-family: var(--serif);
+    font-size: clamp(32px, 4vw, 45px);
+    line-height: 1.3;
+    font-weight: 500;
+    margin-top: 13px;
+}
+
+.section-heading > p {
+    margin-top: 14px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.about-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+}
+
+.about-card {
+    position: relative;
+    padding: 32px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+}
+
+.about-main-card {
+    background: var(--accent-soft);
+}
+
+.card-flower {
+    position: absolute;
+    right: 28px;
+    top: 25px;
+    font-size: 34px;
+    color: var(--accent);
+}
+
+.about-card h3 {
+    font-family: var(--serif);
+    font-size: 26px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.about-card p {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 13px;
+}
+
+.text-button {
+    margin-top: 8px;
+    border: none;
+    background: none;
+    color: var(--accent-dark);
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.text-button span {
+    margin-left: 7px;
+}
+
+.more-about {
+    padding-top: 15px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.detail-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: 50%;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.detail-card h3,
+.interest-card h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.detail-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-row span {
+    color: var(--muted);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.detail-row strong {
+    font-size: 12px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.interest-card {
+    grid-column: 1 / -1;
+}
+
+.interest-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.interest-item:last-child {
+    border-bottom: none;
+}
+
+.interest-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+    font-size: 20px;
+}
+
+.interest-item strong {
+    font-size: 12px;
+}
+
+.interest-item p {
+    margin: 0;
+    font-size: 11px;
+}
+
+.soft-section {
+    background: var(--accent-soft);
+}
+
+.skills-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.skill-panel {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 32px;
+    box-shadow: var(--shadow);
+}
+
+.panel-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.panel-icon {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 23px;
+}
+
+.panel-heading h3 {
+    font-family: var(--serif);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.panel-description {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 22px;
+    margin-bottom: 27px;
+}
+
+.skill-row {
+    margin-bottom: 22px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 9px;
+}
+
+.skill-info span:first-child {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.skill-info span:last-child {
+    font-size: 10px;
+    color: var(--muted);
+}
+
+.skill-track {
+    height: 6px;
+    background: var(--line);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-track span {
+    display: block;
+    width: var(--level);
+    height: 100%;
+    background: var(--accent);
+    border-radius: 20px;
+    animation: grow-bar 1.2s ease both;
+}
+
+.skill-footnote {
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 25px;
+}
+
+.quality-item {
+    display: grid;
+    grid-template-columns: 25px 1fr 20px;
+    gap: 12px;
+    align-items: start;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.quality-item:last-child {
+    border-bottom: none;
+}
+
+.quality-item > span:first-child {
+    color: var(--accent);
+    font-family: var(--serif);
+    font-size: 14px;
+}
+
+.quality-item strong {
+    font-size: 12px;
+}
+
+.quality-item p {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.7;
+    margin-top: 3px;
+}
+
+.quality-heart {
+    color: var(--accent);
+    font-size: 18px;
+}
+
+/* PROJECTS */
+
+.project-toolbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px 0;
+    margin-bottom: 25px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 23px;
+}
+
+.project-card {
+    min-width: 0;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 38px rgba(100, 65, 76, 0.12);
+}
+
+.project-image {
+    display: block;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    background: var(--accent-soft);
+}
+
+.project-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.06);
+}
+
+.image-overlay {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: rgba(55, 34, 44, 0.50);
+    color: white;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.project-card:hover .image-overlay,
+.project-image:focus-visible .image-overlay {
+    opacity: 1;
+}
+
+.project-number {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: var(--paper);
+    color: var(--accent-dark);
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-family: var(--serif);
+    font-size: 13px;
+}
+
+.project-body {
+    padding: 24px;
+}
+
+.project-category {
+    font-size: 9px;
+    color: var(--accent-dark);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.project-body h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.project-body > p {
+    font-size: 12px;
+    line-height: 1.9;
+    color: var(--muted);
+    margin-top: 12px;
+    min-height: 68px;
+}
+
+.project-footer {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+
+.tech-tag {
+    font-size: 9px;
+    padding: 5px 9px;
+}
+
+.project-arrow {
+    margin-left: auto;
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    color: var(--accent-dark);
+    text-decoration: none;
+    transition: background 0.25s, color 0.25s;
+}
+
+.project-arrow:hover {
+    background: var(--accent);
+    color: white;
+}
+
+.project-disclaimer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 28px;
+}
+
+.quote-section {
+    background: var(--paper);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+.quote-inner {
+    position: relative;
+    max-width: 760px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.quote-decoration {
+    display: block;
+    font-family: var(--serif);
+    color: var(--accent);
+    font-size: 70px;
+    height: 65px;
+    line-height: 1;
+}
+
+.quote-inner > p {
+    font-family: var(--serif);
+    font-size: clamp(24px, 3vw, 34px);
+    line-height: 1.6;
+}
+
+.quote-credit {
+    display: block;
+    margin-top: 25px;
+    color: var(--accent-dark);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.contact-card {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 40px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: clamp(25px, 5vw, 60px);
+    box-shadow: var(--shadow);
+}
+
+.contact-content h2 {
+    font-family: var(--serif);
+    font-size: clamp(35px, 4vw, 46px);
+    line-height: 1.3;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+.contact-content > p {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 2;
+    margin-top: 17px;
+}
+
+.contact-details {
+    margin: 28px 0;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.contact-link:last-child {
+    border-bottom: none;
+}
+
+.contact-symbol {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 20px;
+}
+
+.contact-link small {
+    display: block;
+    color: var(--muted);
+    font-size: 9px;
+    letter-spacing: 1.5px;
+}
+
+.contact-link strong {
+    display: block;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+}
+
+.contact-art {
+    text-align: center;
+}
+
+.contact-circle {
+    aspect-ratio: 1;
+    width: min(100%, 270px);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid var(--accent);
+    outline: 1px solid var(--line);
+    outline-offset: 9px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at center, var(--paper) 0 35%, transparent 36%),
+        var(--accent-soft);
+    color: var(--accent);
+}
+
+.contact-circle > span:first-child,
+.contact-circle > span:last-child {
+    font-size: 28px;
+}
+
+.contact-big-heart {
+    font-size: 70px;
+    line-height: 1;
+}
+
+.contact-art > p {
+    margin-top: 28px;
+    font-family: var(--serif);
+    font-size: 13px;
+    font-style: italic;
+    color: var(--muted);
+}
+
+.customize-section {
+    padding-bottom: 75px;
+}
+
+.customize-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 27px 32px;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--paper);
+}
+
+.customize-card h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.customize-card p {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 5px;
+}
+
+.color-options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.color-choice {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--swatch);
+    border: 3px solid var(--paper);
+    outline: 1px solid transparent;
+    cursor: pointer;
+    transition: transform 0.2s, outline-color 0.2s;
+}
+
+.color-choice:hover {
+    transform: scale(1.12);
+}
+
+.color-choice.selected {
+    outline-color: var(--swatch);
+}
+
+.site-footer {
+    padding: 45px 20px 30px;
+    text-align: center;
+    background: var(--paper);
+    border-top: 1px solid var(--line);
+}
+
+.footer-brand {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.site-footer > p {
+    color: var(--muted);
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.footer-divider {
+    width: 45px;
+    height: 1px;
+    margin: 24px auto;
+    background: var(--accent);
+}
+
+.footer-time {
+    font-size: 10px !important;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 900;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    background: var(--accent);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.25s;
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes grow-bar {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--level);
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 17px;
+    }
+
+    .hero {
+        gap: 45px;
+    }
+
+    .profile-image {
+        height: 360px;
+    }
+
+    .floating-note {
+        right: -15px;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .project-card:last-child {
+        grid-column: 1 / -1;
+        width: calc(50% - 12px);
+        justify-self: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .container {
+        width: calc(100% - 34px);
+    }
+
+    .section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .navbar {
+        min-height: 70px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .brand {
+        font-size: 24px;
+    }
+
+    .menu-toggle {
+        display: grid;
+        margin-left: auto;
+    }
+
+    .nav-links {
+        display: none;
+        order: 5;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding-bottom: 12px;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 11px 5px;
+    }
+
+    .nav-link.active::after {
+        display: none;
+    }
+
+    .hero {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        gap: 45px;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: clamp(52px, 13vw, 70px);
+        letter-spacing: -2px;
+    }
+
+    .hero-description {
+        margin-inline: auto;
+    }
+
+    .hero-tags,
+    .hero-actions {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        max-width: 320px;
+    }
+
+    .profile-image {
+        height: 350px;
+    }
+
+    .floating-note {
+        right: -8px;
+        bottom: 70px;
+    }
+
+    .intro-strip-inner {
+        justify-content: center;
+        gap: 12px 25px;
+    }
+
+    .section-heading {
+        margin-bottom: 35px;
+    }
+
+    .about-layout,
+    .skills-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .interest-card {
+        grid-column: auto;
+    }
+
+    .about-card,
+    .skill-panel {
+        padding: 25px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card:last-child {
+        grid-column: auto;
+        width: 100%;
+    }
+
+    .project-image {
+        height: 230px;
+    }
+
+    .project-body > p {
+        min-height: auto;
+    }
+
+    .contact-card {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .contact-art {
+        padding: 10px 0;
+    }
+
+    .contact-circle {
+        max-width: 220px;
+    }
+
+    .customize-card {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-actions {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .hero-tags {
+        gap: 6px;
+    }
+
+    .hero-tags span {
+        font-size: 9px;
+    }
+
+    .floating-note {
+        right: -3px;
+        padding: 9px;
+    }
+
+    .floating-note p {
+        font-size: 9px;
+    }
+
+    .contact-link strong {
+        font-size: 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}</style><script>document.addEventListener("DOMContentLoaded", function () {
+
+    // =====================================
+    // 1. WELCOME MESSAGE
+    // =====================================
+
+    const welcomeBtn = document.getElementById("welcomeBtn");
+    const welcomeMessage = document.getElementById("welcomeMessage");
+
+    welcomeBtn.addEventListener("click", function () {
+        welcomeMessage.textContent =
+            "Hi, lovely visitor! ♡ Thank you for being here. " +
+            "I hope you enjoy exploring my little corner of the internet!";
+
+        welcomeBtn.textContent = "A little love for you ♡";
+    });
+
+
+    // =====================================
+    // 2. DARK AND LIGHT MODE
+    // =====================================
+
+    const themeToggle = document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+
+        const isDark =
+            document.body.classList.contains("dark-mode");
+
+        themeToggle.textContent = isDark ? "☀" : "☾";
+
+        themeToggle.setAttribute(
+            "aria-label",
+            isDark ? "Switch to light mode" : "Switch to dark mode"
+        );
+    });
+
+
+    // =====================================
+    // 3. READ MORE / READ LESS
+    // =====================================
+
+    const readMoreBtn = document.getElementById("readMoreBtn");
+    const moreAbout = document.getElementById("moreAbout");
+
+    readMoreBtn.addEventListener("click", function () {
+        const isHidden = moreAbout.classList.toggle("hidden");
+
+        readMoreBtn.innerHTML = isHidden
+            ? 'Read a little more <span>↗</span>'
+            : 'Read a little less <span>♡</span>';
+
+        readMoreBtn.setAttribute(
+            "aria-expanded",
+            String(!isHidden)
+        );
+    });
+
+
+    // =====================================
+    // 4. CONTACT BUTTON
+    // =====================================
+
+    const contactBtn = document.getElementById("contactBtn");
+
+    contactBtn.addEventListener("click", function () {
+        alert(
+            "Hello! ♡ Thank you for visiting Justine's portfolio.\n\n" +
+            "You can contact me at:\n" +
+            "modesiojustine221@gmail.com\n\n" +
+            "Have a wonderful day! ✿"
+        );
+    });
+
+
+    // =====================================
+    // 5. MOBILE NAVIGATION
+    // =====================================
+
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+    const navItems = document.querySelectorAll(".nav-link");
+
+    menuToggle.addEventListener("click", function () {
+        const isOpen = navLinks.classList.toggle("open");
+
+        menuToggle.textContent = isOpen ? "✕" : "☰";
+        menuToggle.setAttribute("aria-expanded", String(isOpen));
+
+        menuToggle.setAttribute(
+            "aria-label",
+            isOpen ? "Close navigation" : "Open navigation"
+        );
+    });
+
+    navItems.forEach(function (link) {
+        link.addEventListener("click", function () {
+            navLinks.classList.remove("open");
+            menuToggle.textContent = "☰";
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.setAttribute("aria-label", "Open navigation");
+
+            navItems.forEach(function (item) {
+                item.classList.remove("active");
+            });
+
+            link.classList.add("active");
+        });
+    });
+
+
+    // =====================================
+    // 6. CUSTOMIZABLE COLOR THEMES
+    // =====================================
+
+    const colorChoices = document.querySelectorAll(".color-choice");
+
+    colorChoices.forEach(function (choice) {
+        choice.addEventListener("click", function () {
+
+            const accent = choice.dataset.color;
+            const soft = choice.dataset.soft;
+
+            document.documentElement.style.setProperty(
+                "--accent",
+                accent
+            );
+
+            document.documentElement.style.setProperty(
+                "--accent-dark",
+                accent
+            );
+
+            document.documentElement.style.setProperty(
+                "--accent-soft",
+                soft
+            );
+
+            colorChoices.forEach(function (button) {
+                button.classList.remove("selected");
+                button.setAttribute("aria-pressed", "false");
+            });
+
+            choice.classList.add("selected");
+            choice.setAttribute("aria-pressed", "true");
+        });
+    });
+
+
+    // =====================================
+    // 7. BACK TO TOP BUTTON
+    // =====================================
+
+    const backToTop = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 350) {
+            backToTop.classList.add("show");
+        } else {
+            backToTop.classList.remove("show");
+        }
+    });
+
+    backToTop.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
+
+    // =====================================
+    // 8. CURRENT YEAR AND DATE/TIME
+    // =====================================
+
+    const currentYear = document.getElementById("currentYear");
+    const currentDateTime = document.getElementById("currentDateTime");
+
+    currentYear.textContent = new Date().getFullYear();
+
+    function updateDateTime() {
+        const now = new Date();
+
+        currentDateTime.textContent =
+            "Last little update: " +
+            now.toLocaleString("en-PH", {
+                dateStyle: "medium",
+                timeStyle: "short"
+            });
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+
+
+    // =====================================
+    // 9. ACTIVE SECTION NAVIGATION
+    // =====================================
+
+    const sections = document.querySelectorAll(
+        "main section[id]"
+    );
+
+    if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+            function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        navItems.forEach(function (link) {
+                            link.classList.toggle(
+                                "active",
+                                link.getAttribute("href") ===
+                                "#" + entry.target.id
+                            );
+                        });
+                    }
+                });
+            },
+            {
+                rootMargin: "-25% 0px -60% 0px"
+            }
+        );
+
+        sections.forEach(function (section) {
+            observer.observe(section);
+        });
+    }
+
+});
+</script>
